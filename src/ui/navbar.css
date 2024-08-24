@@ -1,0 +1,106 @@
+.navbar {
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 90px;
+    padding: 5px 5px;
+    line-height: 20px;
+    position: fixed;
+    display: flex;
+    top:0;
+    left: 0;
+    font-weight: bold;
+    z-index: 111111;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .navbar nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .navbar-brand {
+    margin-left: 80px;
+    color: rgb(028, 117, 240);
+    text-decoration: none;
+    height: auto;
+
+  }
+  .navbar-brand img{
+    width: 200px;
+    height: 100px;
+    border: none;
+    margin-top: 30px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+  
+  .nav-item {
+    margin: 0 30px;
+  }
+  
+  .nav-item a {
+    color: rgb(028, 117, 240);
+    text-decoration: none;
+  }
+
+  .nav-item a:hover{
+    color: rgb(255, 075, 158);
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-right .balance:hover{
+    color: rgb(255, 075, 158);
+  }
+  
+  .balance {
+    margin-right: 60px;
+    color: rgb(028, 117, 240);
+    font-size: 1.3rem;
+  }
+  
+  .nav-item a:hover{
+    color: rgb(255, 075, 158);
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: 10px 40px;
+    margin-right: 50px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(255, 075, 158);
+    border-color: #cd1c6f;
+  }
+
+  .navbar p{
+    position: absolute;
+    font-size: 1rem;
+    bottom: 5px;
+    right: 40px;
+    margin-bottom: 2px;
+    color: #007bff;
+  }
